@@ -62,4 +62,9 @@ public class MemoService {
                 new IllegalArgumentException("선택한 메모는 존재하지 않습니다.")
         );
     }
+
+    // 2주차 과제
+    public List<MemoResponseDto> getMemosByKeyword(String keyword) {
+        return memoRepository.findByContentsContainingOrderByModifiedAtDesc(keyword).stream().map(MemoResponseDto::new).toList();
+    }
 }

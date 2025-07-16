@@ -8,5 +8,8 @@ import java.util.List;
 public interface MemoRepository extends JpaRepository<Memo, Long> {
     List<Memo> findAllByOrderByModifiedAtDesc();
 
+    // 2주차 과제
+    List<Memo> findByContentsContainingOrderByModifiedAtDesc (String keyword);
+
 }
 
