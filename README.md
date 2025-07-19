@@ -15,4 +15,5 @@ Spring boot를 이용하여 CRUD를 활용하기 위한 간단한 웹 메모 작
 JDK 17 버전 이상
 Gradle
 
+<img width="699" height="766" alt="image" src="https://github.com/user-attachments/assets/6776e5b5-ca50-41d7-9e7f-4259d27f7171" />
 
